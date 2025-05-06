@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1 class="main-title">To-Do List без использования ИИ</h1>
+  <div class="add-task__container">
+    <label for="task-name"></label>
+    <input placeholder="Наименование задачи" type="text" name="task-name" id="task-name" class="add-task__input">
+    <button class="add-task__btn">Добавить задачу</button>
+  </div>
+
+  <div class="tasks-container">
+    <div class="task__item">
+      <p class="task__item-title">Купить хлеб</p>
+      <div class="task__item_btns">
+        <button class="done" id="doneBtn">Заверишть</button>
+        <button class="delete" id="deleteBtn">Удалить</button>
+      </div>
+    </div>
+    <div class="task__item">
+      <p class="task__item-title">Купить молоко</p>
+      <div class="task__item_btns">
+        <button class="done" id="doneBtn2">Заверишть</button>
+        <button class="delete" id="deleteBtn2">Удалить</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
